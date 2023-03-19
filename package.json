@@ -1,15 +1,19 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Badge](https://img.shields.io/badge/license-MIT-green?style=plastic&logo=appveyor)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Anastasiya Rylova",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "uuidv4": "^6.2.13"
+  },
+  "engines":{
+    "node":"18.14.2"
   }
 }
