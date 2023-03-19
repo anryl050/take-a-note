@@ -42,7 +42,7 @@ The application must use Heroku (a cloud based server application) to deploy the
 
 
 ## Demo Video
-[Demo Video](https://www.awesomescreenshot.com/video/15741085?key=950d9873aacb3f64d5b5f9c541aaa935)
+[Demo Video](https://user-images.githubusercontent.com/118693401/226203653-d7911c68-ece2-4b5c-9699-0c7e3caeb1cd.mp4)
 
 
 ## Installation
@@ -71,8 +71,8 @@ At this time no Unit Tests available to test the application functionalities.
 
 
 ## Contribution
-Mini Project for Week 11
-AskBCS for assissting with troubleshooting
+- Mini Project for Week 11
+- AskBCS for assissting with troubleshooting
 
 
 ## License
