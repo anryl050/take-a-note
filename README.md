@@ -5,11 +5,13 @@
 ## Table of Content
 #### * [Project Desctiption](#description)
 #### * [Additional Requirement](#requirements)
-#### * [Video Explanation](#video)
+#### * [Deployed Application](#application)
+#### * [Demo Video](#video)
 #### * [Installation](#installation)
 #### * [Usage](#usage)
 #### * [Tests](#tests)
 #### * [License](#license)
+
 
 ## Project Description
 The scope of project is to createa Note Taker application that can be used to write, save and delete notes. The application must use an Express.js back end and should save and retrieve the data from JSON file. 
@@ -30,34 +32,48 @@ GIVEN a note-taking application:
 - WHEN I click on an existing note in the list in the left-hand column, THEN that note appears in the right-hand column.
 - WHEN I click on the Write icon in the navigation at the top of the page, THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column. 
  
+ 
 ## Additional Requirements
 The application must use Heroku (a cloud based server application) to deploy the entire application. 
 
-## Video Exaplanation
-[Demo Video]()
+
+## Deployed Application
+[Deployed TAKE-A-NOTE app](https://take-a-note.herokuapp.com/notes)
+
+
+## Demo Video
+[Demo Video](https://user-images.githubusercontent.com/118693401/226203653-d7911c68-ece2-4b5c-9699-0c7e3caeb1cd.mp4)
 
 
 ## Installation
 - User needs to install [node.js (version 18.15.0 LTS)](https://nodejs.org/en/).
-- To use the application user has to list [inquirer (version 8.2.4)](https://www.npmjs.com/package/inquirer/v/8.2.4) and [jest (version 29.4.3)](https://jestjs.io/docs/29.4/getting-started) as dependencies in the package.json file.
-- To install inquirer and jest, the user needs to open the intergrated terminal and type npm install or npm i. This will isntall the inquirer and jest based on the specified version in the package.json file. 
-- Once inquirer and jest are installed, the user can run the application. 
+- To use the application user has to list [express (version 18.14.2)](https://www.npmjs.com/package/express) and [uuidv4 (version 6.2.13)](https://www.npmjs.com/package/uuidv4) as dependencies in the package.json file.
+- To deploy the application, the user needs install Heroku (cloud based application) and connect the compliled code from GitHub to Heroku. For additinal instruction refer to the [Heroku Support Page](https://devcenter.heroku.com/articles/deploying-nodejs).
 
 
 ## Usage
-- To run the application, type "npm start" in the VS terminal. 
-- Follow the prompts to input the information.
-- Once the script is done running, a new logo.svg file with all user inputs is populated. To view the newly generated logo, the user must open it with a live server. 
+- To run the application, the user must click on the link to the deployed application.
+- Once application is opened, click on the "Get Started" button.
+- To create a new Note:
+  - Add a Note Title
+  - Add the Note Text
+  - click on the Save button at the top right corner of the screen.
+- To view the existing notes:
+  - select the note on the left side of the screen
+- To delete the note:
+  - select the note and click on the Recycle Bin icon next to it. 
+- To return to the main screen:
+  -  click on the Note Taker at the top left corner of the screen. 
 
-## Example SVG files
-N/A
 
 ## Tests
 At this time no Unit Tests available to test the application functionalities. 
 
+
 ## Contribution
-N/A
+- Mini Project for Week 11
+- AskBCS for assissting with troubleshooting
+
 
 ## License
 Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
-
